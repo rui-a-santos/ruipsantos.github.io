@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="map.css"/>
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+<body>
+<div id="map">
+    <div id="title">World Vaccination Data Q1 2021</div>
+    <div id="source">Source: <a href="https://ourworldindata.org/coronavirus">Our World Data - Coronavirus</a> (13/4/2021)</div>
+    <br>
+    <div id = sliderDiv>
+        <div class="month"></div>
+        <br>
+        <div class="slider"></div>
+    </div>
+    <div id="mapLegendDiv">
+        <div class="key">Number of Vaccine Doses per 100</div>
+        <div class="range">&nbsp &nbsp 0 &nbsp &nbsp 10 &nbsp &nbsp 20 &nbsp &nbsp 30 &nbsp &nbsp 40 &nbsp &nbsp 50+</div>
+    </div>
+    <svg width="700" height="400"></svg>
+    <script type="text/javascript" src="map.js"></script>
+</div>
+</body>
+</html>

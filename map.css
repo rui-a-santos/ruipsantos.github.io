@@ -1,0 +1,56 @@
+/* create a border for the visualization */
+#map{
+    border: 1px solid black;
+}
+
+/* style for the title in the html */
+#title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+#source{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* style for the slider */
+#sliderDiv{
+    margin-right:100px;
+    margin-left:50px;
+    float:left;
+}
+
+/* style for the legend */
+#mapLegendDiv{
+    float:right;
+}
+
+/* sets the colours for the map legend, retrieved from Steve Nae: http://bl.ocks.org/stevenae/8362841 */
+.legend0 { fill:#f2f0f7; }
+.legend1 { fill:#dadaeb; }
+.legend2 { fill:#bcbddc; }
+.legend3 { fill:#9e9ac8; }
+.legend4 { fill:#756bb1; }
+.legend5 { fill:#54278f; }
+
+/* style for the body of the html*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 750px;
+}
+
+/* style for the tooltip, retrieved from Steve Nae: http://bl.ocks.org/stevenae/8362841 */
+.tooltip {
+    text-align: center;
+    line-height: 1.5;
+    padding: 8px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+
